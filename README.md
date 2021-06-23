@@ -1,1 +1,2 @@
 # arp-hijacker
+A basic ARP cache poisoner used for executing the initial stage of a man in the middle attack. The tool does not set the attacking machine to act as a packet forwarder, which must be implemented manually.
