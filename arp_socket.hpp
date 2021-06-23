@@ -1,5 +1,5 @@
-#ifndef _comm_arp_socket_hpp
-#define _comm_arp_socket_hpp
+#ifndef _SPOOF_ARP_SOCKET_HPP
+#define _SPOOF_ARP_SOCKET_HPP
 
 #include <linux/if_packet.h>
 
@@ -44,7 +44,7 @@ namespace spoof {
         char header_[PACKETLEN];
 
         inline bool send_impl(const int opcode) const;
-     };
+    };
 }
 
 #endif
